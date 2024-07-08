@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\mm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\mm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\mm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\mm1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\mm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\mm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\mm2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -21,6 +17,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\md1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\md1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\mm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\mm1n.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4A68A1B-79DA-4C19-A6B3-41F8436C72C8}|Calculadora\\Calculadora.csproj|c:\\users\\sebaf\\desktop\\proyectos\\facultad\\calculadora-teoriadecolas\\calculadora\\mg1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,35 +46,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 345,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MMN.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MMN.cs",
-              "RelativeDocumentMoniker": "Calculadora\\MMN.cs",
-              "ToolTip": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MMN.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Calculadora\\MMN.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "MM1.cs",
+              "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MM1.cs",
+              "RelativeDocumentMoniker": "Calculadora\\MM1.cs",
+              "ToolTip": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MM1.cs",
+              "RelativeToolTip": "Calculadora\\MM1.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAwwBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T19:38:19.745Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-07-08T10:47:04.545Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MG1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MG1.cs",
-              "RelativeDocumentMoniker": "Calculadora\\MG1.cs",
-              "ToolTip": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MG1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Calculadora\\MG1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T19:38:11.713Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MD1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MD1.cs",
               "RelativeDocumentMoniker": "Calculadora\\MD1.cs",
@@ -78,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MM2.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MM2.cs",
               "RelativeDocumentMoniker": "Calculadora\\MM2.cs",
@@ -90,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MM1N.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MM1N.cs",
               "RelativeDocumentMoniker": "Calculadora\\MM1N.cs",
@@ -114,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\Form1.cs",
               "RelativeDocumentMoniker": "Calculadora\\Form1.cs",
@@ -122,6 +120,43 @@
               "RelativeToolTip": "Calculadora\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T19:33:19.406Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Form1.cs",
+              "ToolTip": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\Form1.cs",
+              "RelativeToolTip": "Calculadora\\Form1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T19:45:09.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MG1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MG1.cs",
+              "RelativeDocumentMoniker": "Calculadora\\MG1.cs",
+              "ToolTip": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MG1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Calculadora\\MG1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T19:38:11.713Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MMN.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MMN.cs",
+              "RelativeDocumentMoniker": "Calculadora\\MMN.cs",
+              "ToolTip": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\MMN.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Calculadora\\MMN.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T19:38:19.745Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
