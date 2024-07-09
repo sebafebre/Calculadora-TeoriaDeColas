@@ -49,12 +49,13 @@
             txtPaR = new TextBox();
             label9 = new Label();
             label10 = new Label();
-            txtPRes = new TextBox();
-            txtP0Res = new TextBox();
+            txtP = new TextBox();
+            txtP0 = new TextBox();
             label11 = new Label();
             panelResultados = new Panel();
             txtPnRes = new TextBox();
             label12 = new Label();
+            lblError = new Label();
             panelResultados.SuspendLayout();
             SuspendLayout();
             // 
@@ -236,19 +237,19 @@
             label10.TabIndex = 38;
             label10.Text = "P:";
             // 
-            // txtPRes
+            // txtP
             // 
-            txtPRes.Location = new Point(352, 109);
-            txtPRes.Name = "txtPRes";
-            txtPRes.Size = new Size(77, 27);
-            txtPRes.TabIndex = 39;
+            txtP.Location = new Point(352, 109);
+            txtP.Name = "txtP";
+            txtP.Size = new Size(77, 27);
+            txtP.TabIndex = 39;
             // 
-            // txtP0Res
+            // txtP0
             // 
-            txtP0Res.Location = new Point(352, 158);
-            txtP0Res.Name = "txtP0Res";
-            txtP0Res.Size = new Size(77, 27);
-            txtP0Res.TabIndex = 41;
+            txtP0.Location = new Point(352, 158);
+            txtP0.Name = "txtP0";
+            txtP0.Size = new Size(77, 27);
+            txtP0.TabIndex = 41;
             // 
             // label11
             // 
@@ -265,11 +266,11 @@
             panelResultados.Controls.Add(txtPnRes);
             panelResultados.Controls.Add(label12);
             panelResultados.Controls.Add(lblResultados);
-            panelResultados.Controls.Add(txtP0Res);
+            panelResultados.Controls.Add(txtP0);
             panelResultados.Controls.Add(txtPaR);
             panelResultados.Controls.Add(label11);
             panelResultados.Controls.Add(label5);
-            panelResultados.Controls.Add(txtPRes);
+            panelResultados.Controls.Add(txtP);
             panelResultados.Controls.Add(txtLq);
             panelResultados.Controls.Add(label10);
             panelResultados.Controls.Add(label6);
@@ -303,11 +304,24 @@
             label12.TabIndex = 42;
             label12.Text = "Pn:";
             // 
+            // lblError
+            // 
+            lblError.AutoSize = true;
+            lblError.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblError.ForeColor = Color.Red;
+            lblError.Location = new Point(196, 170);
+            lblError.Name = "lblError";
+            lblError.Size = new Size(233, 20);
+            lblError.TabIndex = 43;
+            lblError.Text = "Debe ingresar el lambda y el mu";
+            lblError.Visible = false;
+            // 
             // MM1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(619, 450);
+            Controls.Add(lblError);
             Controls.Add(panelResultados);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -349,11 +363,12 @@
         private TextBox txtPaR;
         private Label label9;
         private Label label10;
-        private TextBox txtPRes;
-        private TextBox txtP0Res;
+        private TextBox txtP;
+        private TextBox txtP0;
         private Label label11;
         private Panel panelResultados;
         private TextBox txtPnRes;
         private Label label12;
+        private Label lblError;
     }
 }

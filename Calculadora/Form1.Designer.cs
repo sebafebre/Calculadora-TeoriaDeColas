@@ -36,7 +36,12 @@
             btnMM1N = new Button();
             btnMM1 = new Button();
             panelPantalla = new Panel();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
             panelBotones.SuspendLayout();
+            panelPantalla.SuspendLayout();
             SuspendLayout();
             // 
             // panelBotones
@@ -115,11 +120,51 @@
             // 
             // panelPantalla
             // 
+            panelPantalla.Controls.Add(label4);
+            panelPantalla.Controls.Add(label3);
+            panelPantalla.Controls.Add(label2);
+            panelPantalla.Controls.Add(label1);
             panelPantalla.Dock = DockStyle.Right;
             panelPantalla.Location = new Point(201, 0);
             panelPantalla.Name = "panelPantalla";
             panelPantalla.Size = new Size(805, 497);
             panelPantalla.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(299, 53);
+            label1.Name = "label1";
+            label1.Size = new Size(190, 20);
+            label1.TabIndex = 0;
+            label1.Text = "Calculadora teoria de colas";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(87, 127);
+            label2.Name = "label2";
+            label2.Size = new Size(253, 20);
+            label2.TabIndex = 1;
+            label2.Text = "1) Elija el modelo que dese acalcular";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(87, 174);
+            label3.Name = "label3";
+            label3.Size = new Size(511, 20);
+            label3.TabIndex = 2;
+            label3.Text = "2) Complete las variables necesarias para el calculo (lambda, mu , N, sigma)";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(87, 223);
+            label4.Name = "label4";
+            label4.Size = new Size(493, 20);
+            label4.TabIndex = 3;
+            label4.Text = "3) Dele al boton \"Calcular\" y apareceran los resultados debajo del boton.";
             // 
             // Form1
             // 
@@ -131,6 +176,8 @@
             Name = "Form1";
             Text = "Form1";
             panelBotones.ResumeLayout(false);
+            panelPantalla.ResumeLayout(false);
+            panelPantalla.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -144,5 +191,9 @@
         private Button btnMM2;
         private Button btnMM1N;
         private Button btnMM1;
+        private Label label4;
+        private Label label3;
+        private Label label2;
+        private Label label1;
     }
 }
