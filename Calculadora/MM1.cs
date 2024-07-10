@@ -19,10 +19,9 @@ namespace Calculadora
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            
+            if (txtLambda.Text != "" && txtMu.Text != "")
+            {
 
-            if(txtLambda.Text != "" && txtMu.Text != ""){
-                
                 panelResultados.Visible = true;
                 lblError.Visible = false;
 
@@ -31,7 +30,7 @@ namespace Calculadora
 
                 double P = 0;
                 double P0 = 0;
-                double Lq =0 ;
+                double Lq = 0;
                 double Ls = 0;
                 double Wq = 0;
                 double Ws = 0;
@@ -150,7 +149,7 @@ namespace Calculadora
             {
                 lblError.Visible = true;
             }
-            
+
 
 
         }

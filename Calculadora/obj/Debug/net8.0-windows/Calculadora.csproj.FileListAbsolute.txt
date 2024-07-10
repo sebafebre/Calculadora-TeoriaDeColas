@@ -21,3 +21,29 @@ C:\Users\sebaf\Desktop\Proyectos\Facultad\Calculadora-TeoriaDeColas\Calculadora\
 C:\Users\sebaf\Desktop\Proyectos\Facultad\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
 C:\Users\sebaf\Desktop\Proyectos\Facultad\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
 C:\Users\sebaf\Desktop\Proyectos\Facultad\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\bin\Debug\net8.0-windows\Calculadora.exe
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\bin\Debug\net8.0-windows\Calculadora.deps.json
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\bin\Debug\net8.0-windows\Calculadora.runtimeconfig.json
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\bin\Debug\net8.0-windows\Calculadora.dll
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\bin\Debug\net8.0-windows\Calculadora.pdb
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.Form1.resources
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.MD1.resources
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.MG1.resources
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.MM1.resources
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.MM1N.resources
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.MM2.resources
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.MMN.resources
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.GenerateResource.cache
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfoInputs.cache
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfo.cs
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.sourcelink.json
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.dll
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\refint\Calculadora.dll
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.AssemblyReference.cache
+C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculad.310BED7B.Up2Date
