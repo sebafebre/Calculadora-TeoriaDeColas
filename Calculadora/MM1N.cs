@@ -70,7 +70,14 @@ namespace Calculadora
 
                 try
                 {
-                    Pn = ((Math.Pow(P, Convert.ToInt32(txtPn.Text))) * P0);
+                    if(txtPn.Text != "")
+                    {
+                        Pn = ((Math.Pow(P, Convert.ToInt32(txtPn.Text))) * P0);
+                    }
+                    else
+                    {
+                        txtPn.Text = "No solicitado";
+                    }
                 }
                 catch
                 {
@@ -115,6 +122,7 @@ namespace Calculadora
                     catch
                     {
                         txtLq.Text = "No existe";
+                        txtLs.Text = "No existe";
                     }
                 }
                 else
@@ -132,11 +140,10 @@ namespace Calculadora
                     catch
                     {
                         txtLq.Text = "No existe";
+                        txtLs.Text = "No existe";
                     }
 
                 }
-                
-
                 
 
                 try
@@ -151,7 +158,7 @@ namespace Calculadora
 
                 try
                 {
-                    Ws = Wq + 1 / miu;
+                    Ws = Ls / lambda;
                     txtWs.Text = Ws.ToString();
                 }
                 catch
@@ -159,49 +166,46 @@ namespace Calculadora
                     txtWs.Text = "No existe";
                 }
 
-                try
-                {
-                    if (txtPn.Text != "")
-                    {
-                        Pn = (1 - P) * Math.Pow(P, Convert.ToInt32(txtPn.Text));
-                        txtPnRes.Text = Pn.ToString();
-                    }
-                    else
-                    {
-                        txtPnRes.Text = "...";
-                    }
-                }
-                catch
-                {
-                    txtPnRes.Text = "No existe";
-                }
+
+                double Pb = 0;
+                double Lb = 0;
+                double Wb = 0;
 
                 try
                 {
-                    if (txtPa.Text != "")
-                    {
-                        int Pan = Convert.ToInt32(txtPa.Text);
-
-                        PaRes = 0;
-                        Pn = 0;
-
-                        for (int i = 1; i < Pan; i++)
-                        {
-                            PnA += (1 - P) * Math.Pow(P, i);
-                        }
-
-                        PaRes = 1 - P0 - PnA;
-                        txtPaR.Text = PaRes.ToString();
-                    }
-                    else
-                    {
-                        txtPaR.Text = "...";
-                    }
+                    Lb = (Lq / (1 - P0));
+                    txtLb.Text = Lb.ToString();
                 }
                 catch
                 {
-                    txtPaR.Text = "No existe";
+                    txtLb.Text = "No existe";
                 }
+
+                try
+                {
+                    Wb = (Wq / (1 - P0));
+                    txtWb.Text = Wb.ToString();
+                }
+                catch
+                {
+                    txtWb.Text = "No existe";
+                }
+
+                try
+                {
+                    Pb = ( (Math.Pow(P,N) * (1-P)) / (1 - (Math.Pow(P,(N+1)))) );
+                    txtPb.Text = Pb.ToString();
+                }
+                catch
+                {
+                    txtPb.Text = "No existe";
+                }
+
+
+
+               
+
+                
             }
             else
             {
