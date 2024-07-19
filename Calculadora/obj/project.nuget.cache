@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ewsj5ajhrog=",
+  "dgSpecHash": "vApMq6t/P/Fjg2C80uRgWxhak4sv7K7AV9inqm91xd2Ndx3i2wREehneEGFvepkHFNgvxQOWyQWk/OnSGjaOtw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\franb\\Documents\\Fran\\UAI\\Modelización Numérica\\Final con seba\\Calculadora-TeoriaDeColas\\Calculadora\\Calculadora.csproj",
+  "projectFilePath": "C:\\Users\\sebaf\\Desktop\\Proyectos\\Facultad\\Calculadora-TeoriaDeColas\\Calculadora\\Calculadora.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\franb\\.nuget\\packages\\fontawesome.sharp\\6.3.0\\fontawesome.sharp.6.3.0.nupkg.sha512"
+    "C:\\Users\\sebaf\\.nuget\\packages\\fontawesome.sharp\\6.3.0\\fontawesome.sharp.6.3.0.nupkg.sha512"
   ],
   "logs": []
 }

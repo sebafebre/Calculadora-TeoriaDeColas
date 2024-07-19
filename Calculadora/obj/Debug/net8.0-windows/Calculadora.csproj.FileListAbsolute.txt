@@ -47,3 +47,6 @@ C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calcula
 C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
 C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.AssemblyReference.cache
 C:\Users\franb\Documents\Fran\UAI\Modelización Numérica\Final con seba\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculad.310BED7B.Up2Date
+C:\Users\sebaf\Desktop\Proyectos\Facultad\Calculadora-TeoriaDeColas\Calculadora\bin\Debug\net8.0-windows\FontAwesome.Sharp.dll
+C:\Users\sebaf\Desktop\Proyectos\Facultad\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.AssemblyReference.cache
+C:\Users\sebaf\Desktop\Proyectos\Facultad\Calculadora-TeoriaDeColas\Calculadora\obj\Debug\net8.0-windows\Calculad.310BED7B.Up2Date

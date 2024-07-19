@@ -1,3 +1,5 @@
+using System.Drawing;
+
 namespace Calculadora
 {
     public partial class Form1 : Form
@@ -45,7 +47,7 @@ namespace Calculadora
         {
             if (_buttonActivo != null)
             {
-                _buttonActivo.BackColor = Color.Khaki;
+                _buttonActivo.BackColor = ColorTranslator.FromHtml("#677D6A");
             }
 
             if (_formActivo != null) {
@@ -55,9 +57,10 @@ namespace Calculadora
             _buttonActivo = button;
             _formActivo = form;
 
-            _buttonActivo.BackColor = Color.DarkKhaki;
-            
-            
+            _buttonActivo.BackColor = ColorTranslator.FromHtml("#40534C");
+            _buttonActivo.ForeColor = ColorTranslator.FromHtml("#D6BD98");
+
+
             // Limpiar el panel antes de agregar el nuevo formulario
             panelPantalla.Controls.Clear();
 
@@ -65,7 +68,8 @@ namespace Calculadora
             _formActivo.TopLevel = false;
             _formActivo.FormBorderStyle = FormBorderStyle.None;
             _formActivo.Dock = DockStyle.Fill;
-            _formActivo.BackColor = Color.PaleGoldenrod;
+            _formActivo.BackColor = ColorTranslator.FromHtml("#729762");
+            _formActivo.ForeColor = ColorTranslator.FromHtml("#D6BD98");
 
             // Agregar el formulario al panel y mostrarlo
             panelPantalla.Controls.Add(form);

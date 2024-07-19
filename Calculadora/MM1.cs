@@ -25,8 +25,10 @@ namespace Calculadora
                 panelResultados.Visible = true;
                 lblError.Visible = false;
 
-                double lambda = double.Parse(txtLambda.Text);
-                double miu = double.Parse(txtMu.Text);
+                double lambda = double.Parse((txtLambda.Text).Replace('.', ','));
+                double mu = double.Parse((txtMu.Text).Replace('.', ','));
+
+
 
                 double P = 0;
                 double P0 = 0;
@@ -43,8 +45,11 @@ namespace Calculadora
 
                 try
                 {
-                    P = lambda / miu;
-                    txtP.Text = P.ToString();
+                    P = lambda / mu;
+                    //txtP.Text = P.ToString();
+                    txtP.Text = (Math.Round(P, 4) * 100).ToString() + " %";
+
+
                 }
                 catch
                 {
@@ -54,7 +59,8 @@ namespace Calculadora
                 try
                 {
                     P0 = 1 - P;
-                    txtP0.Text = P0.ToString();
+                    //txtP0.Text = P0.ToString();
+                    txtP0.Text = (Math.Round(P0, 4) * 100).ToString() + " %";
                 }
                 catch
                 {
@@ -64,17 +70,39 @@ namespace Calculadora
                 try
                 {
                     Lq = Math.Pow(P, 2) / (1 - P);
-                    txtLq.Text = Lq.ToString();
+
+
+
+                    if (Double.IsInfinity(Lq))
+                    {
+                        txtLq.Text = "no existe";
+                    }
+                    else
+                    {
+                        //txtLq.Text = Lq.ToString();
+
+                        txtLq.Text = (Math.Round(Lq, 2)).ToString();
+                    }
                 }
                 catch
                 {
                     txtLq.Text = "No existe";
                 }
 
+
+
                 try
                 {
                     Ls = Lq + P;
-                    txtLs.Text = Ls.ToString();
+                    //txtLs.Text = Ls.ToString();
+                    if (Double.IsInfinity(Ls))
+                    {
+                        txtLs.Text = "no existe";
+                    }
+                    else
+                    {
+                        txtLs.Text = (Math.Round(Ls, 2)).ToString();
+                    }
                 }
                 catch
                 {
@@ -84,7 +112,15 @@ namespace Calculadora
                 try
                 {
                     Wq = Lq / lambda;
-                    txtWq.Text = Wq.ToString();
+                    //txtWq.Text = Wq.ToString();
+                    if (Double.IsInfinity(Wq))
+                    {
+                        txtWq.Text = "no existe";
+                    }
+                    else
+                    {
+                        txtWq.Text = (Math.Round(Wq, 2)).ToString();
+                    }
                 }
                 catch
                 {
@@ -93,8 +129,16 @@ namespace Calculadora
 
                 try
                 {
-                    Ws = Wq + 1 / miu;
-                    txtWs.Text = Ws.ToString();
+                    Ws = Wq + 1 / mu;
+                    //txtWs.Text = Ws.ToString();
+                    if (Double.IsInfinity(Ws))
+                    {
+                        txtWs.Text = "no existe";
+                    }
+                    else
+                    {
+                        txtWs.Text = (Math.Round(Ws, 2)).ToString();
+                    }
                 }
                 catch
                 {
@@ -106,7 +150,7 @@ namespace Calculadora
                     if (txtPn.Text != "")
                     {
                         Pn = (1 - P) * Math.Pow(P, Convert.ToInt32(txtPn.Text));
-                        txtPnRes.Text = Pn.ToString();
+                        txtPnRes.Text = (Math.Round(Pn, 4) * 100).ToString() + " %";
                     }
                     else
                     {
@@ -133,7 +177,7 @@ namespace Calculadora
                         }
 
                         PaRes = 1 - P0 - PnA;
-                        txtPaR.Text = PaRes.ToString();
+                        txtPaR.Text = (Math.Round(PaRes, 4) * 100).ToString() + " %";
                     }
                     else
                     {
@@ -144,13 +188,73 @@ namespace Calculadora
                 {
                     txtPaR.Text = "No existe";
                 }
+
+                try
+                {
+                    double N = lambda * Ws;
+                    if (Double.IsInfinity(N))
+                    {
+                        txtN.Text = "No existe";
+                    }
+                    else
+                    {
+                        txtN.Text = Math.Round(N, 2).ToString();
+                    }
+                }
+                catch
+                {
+                    txtN.Text = "No existe";
+                }
+
+                try
+                {
+                    double tLambda = 1 / lambda;
+                    if (Double.IsInfinity(tLambda))
+                    {
+                        txtTazaL.Text = "No existe";
+                    }
+                    else
+                    {
+                        txtTazaL.Text = Math.Round(tLambda, 2).ToString();
+                    }
+                }
+                catch
+                {
+                    txtTazaL.Text = "No existe";
+                }
+
+                try
+                {
+                    double tMu = 1 / mu;
+                    if (Double.IsInfinity(tMu))
+                    {
+                        txtTazaMu.Text = "No existe";
+                    }
+                    else
+                    {
+                        txtTazaMu.Text = Math.Round(tMu, 2).ToString();
+                    }
+                }
+                catch
+                {
+                    txtTazaMu.Text = "No existe";
+                }
+
             }
             else
             {
                 lblError.Visible = true;
             }
 
+        }
 
+        private void lblResultados_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblResultados_Click_1(object sender, EventArgs e)
+        {
 
         }
     }
